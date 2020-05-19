@@ -1,0 +1,213 @@
+body {
+    background-color: #0b0c0d;
+    padding: 0;
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.logo {
+    background-image: url('../image/logo white small shadow.png');
+    width: 359px;
+    height: 90px;
+    margin: 10px auto 5px;
+}
+
+.timer {
+    text-align: center;
+    margin: 1px auto 1px;
+}
+
+.timer span {
+    color: #fff;
+    font-size:25px;
+    font-weight:200;
+    text-shadow: 1px 2px 3px #000;
+}
+
+.container {
+    width: 380px;
+    padding: 10px;
+    margin: 0 auto;
+    box-shadow: 0 0 45px 5px rgba(0,0,0,0.75);
+}
+
+.header {
+    background-image: url('../image/wallpaper.png');
+    background-size: 100% 200%;
+    background-repeat: no-repeat;
+    border-radius: 1px 1px 0 0;
+    width: 380px;
+    height: 200px;
+    position: relative;
+    margin-top: 2px;
+    text-shadow: 1px 2px 3px #000;
+}
+
+.clear {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.clear i {
+    font-size: 30px;
+    color: #e6e6e6;
+}
+
+.clear i:hover {
+    cursor: pointer;
+    text-shadow: 1px 3px 5px #000;
+    transform: rotate(15deg);
+}
+
+#motivational-text {
+    color: #e6e6e6;
+    font-size: 15px;
+    font-family: 'Titillium Web', sans-serif;
+    position: absolute;
+    bottom: 45px;
+    left: 10px;
+    text-shadow: 1px 2px 3px #000;
+}
+
+#date {
+    color: #e6e6e6;
+    font-size: 30px;
+    font-family: 'Titillium Web', sans-serif;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    text-shadow: 1px 2px 3px #000;
+}
+
+.content {
+    background-color: #1b1d1f;
+    overflow: auto;
+    width: 380px;
+    height: 320px;
+    max-height: 350px;
+}
+
+.content::-webkit-scrollbar {
+    display: none;
+}
+
+.content ul{
+    padding: 0;
+    margin: 0;
+}
+
+.item {
+    border-bottom: 1px solid rgb(25, 25, 25);
+    list-style: none;
+    width: 380px;
+    height: 45px;
+    min-height: 45px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.item i.co {
+    color: #9E2533;
+    font-size: 25px;
+    padding-left: 2px;
+    left: 10px;
+    top: 10px;
+    position: absolute;
+}
+
+.item i.co:hover {
+    cursor: pointer;
+}
+
+.fa-check-circle {
+    color: #9E2533;
+}
+
+.item p.text {
+    color: #e6e6e6;
+    font-size: 20px;
+    max-width: 285px;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    left: 50px;
+    top: 5px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.lineThrough {
+    text-decoration: line-through;
+    color: #ccc;
+}
+
+.item i.de {
+    color: #9E2533;
+    font-size: 25px;
+    right: 15px;
+    top: 10px;
+    position: absolute;
+}
+
+.item i.de:hover {
+    color: #fcfcfc;
+    cursor: pointer;
+}
+
+.add-task {
+    background-color: #1b1d1f;
+    width: 360px;
+    height:40px;
+    position: relative;
+    padding: 10px;
+    border-top: 1px solid rgb(25, 25, 25);
+}
+
+.add-task i {
+    color: #9E2533;
+    font-size: 40px;
+    position: absolute;
+}
+
+.add-task input[type=text] {
+    color: #e6e6e6;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    height: 35px;
+    width: 310px;
+    position: absolute;
+    left: 50px;
+    padding-left:10px;
+}
+
+/* chrome/opera */
+.add-task input::-webkit-input-placeholder {
+    color: #e6e6e6;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+
+/* firefox */
+.add-task input::-moz-placeholder {
+    color: #fcfcfc;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+
+/* firefox 18- */
+.add-task input:-moz-placeholder {
+    color: #fcfcfc;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+
+/* edge */
+.add-task input:-ms-input-placeholder {
+    color: #fcfcfc;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
